@@ -1,0 +1,12 @@
+/* Vamos a anidar los selectores*/
+/*.contenedor p { de esta forma vamos a ponerle estilo solo a lo que este dentro del contenedor 
+    color: aqua;
+}*/
+/*Para ganar pecicion en el estilo */
+section.main .contenedor p {
+    color: aqua;
+}
+.contenedor #boton-contenedor{
+    background-color: chartreuse;
+    color: wheat;
+}

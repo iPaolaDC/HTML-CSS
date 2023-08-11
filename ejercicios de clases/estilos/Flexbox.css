@@ -1,0 +1,20 @@
+
+/*https://codepen.io/enxaneta/full/adLPwv*/
+.contenedor{
+    background-color: black;
+    padding: 0.5rem;
+    display: flex;
+    gap: 0.5rem;
+    height: 5rem;
+    /*Eje principal*/
+    justify-content: space-around;
+    /*El eje secundario*/
+    align-items: center;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
+}
+.item {
+    background-color: yellow;
+    padding: 0.25rem;
+    width: 10rem;
+}

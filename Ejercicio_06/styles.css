@@ -1,0 +1,12 @@
+.boton::before{
+    font-family: 'Courier New';
+    font-style: italic;
+    content: "Pasa por encima";
+}
+.boton:hover{
+    background-color: green;
+    color: white;
+}
+.boton:hover::before{
+    content: "¡Hecho!";
+}

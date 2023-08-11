@@ -1,0 +1,40 @@
+.libro{
+    width: 400px;
+    height: 300px;
+    background-color: cyan;
+    padding: 15px;
+    font-family: 'Courier New';
+}
+/* seudo elemento para que la primera letra se diferente */
+.libro p::first-letter{
+    font-size: xx-large;
+}
+/* Para cambiar al primera linea */
+.libro p::first-line{
+    color: wheat;
+}
+/* Para cambiar cuando se selecciona el texto */
+.libro p::selection{
+    background-color: cornflowerblue;
+    color: darkslateblue;
+}
+.contenedor{
+    width: 400px;
+    height: 100px;
+    padding: 20px;
+    background-color: bisque;
+}
+span.frase{
+    font-style: italic;
+}
+span.frase::before{
+    content: '<<';
+    font-size: xx-small;
+}
+span.frase::after{
+    content: '>>';
+    font-size: xx-small;
+}
+.listado li::marker{
+    color: red;
+}

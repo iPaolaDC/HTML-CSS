@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Photo App</title>
+</head>
+<body>
+    <main>
+        <h1 style="color: #0833EE; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">CatPhotoApp</h1>
+        <section>
+            <h2 style="color: #2492FF; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Cat Photos</h2>
+            <!-- TODO: Add link to cat photos -->
+            <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">See more <a target="_blank" href="https://www.pexels.com/es-es/buscar/gatos/">cat photos</a> in the page pexels</p>
+            <a target="_blank" href="https://www.pexels.com/es-es/buscar/gatos/"><img style="height: 400px; width: 400px;" src="https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A cute cat lying on its back"></a>
+        </section>
+        <section>
+            <h2 style="color: #2492FF; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Cat List</h2>
+            <h3 style="color: #00D7FF; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Things cats love</h3>
+            <ul style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <li>Cat nip</li>
+                <li>Laser pointers</li>
+                <li>Lasagna</li>
+            </ul>
+            <figure>
+                <img  style="height: 300px; width: 300px;" src="https://assets.unileversolutions.com/recipes-v2/232080.jpg" alt="A slice of Lasagna on a plate">
+                <figcaption style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Cats <em>love</em> Lasagna</figcaption>
+            </figure>
+            <h3 style="color: #00D7FF; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Top 3 things cats hate</h3>
+            <ol style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">
+                <li>flea treatment</li>
+                <li>Thunder</li>
+                <li>other cats</li>
+            </ol>
+            <figure>
+                <img style="height: 200px; width: 400px;" src="https://images.pexels.com/photos/45170/kittens-cat-cat-puppy-rush-45170.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Five cats looking around a field">
+                <figcaption style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Cats <strong>hate</strong> other cats.</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2 style="color: #2492FF; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Cat Form</h2>
+            <form action="">
+                <fieldset>
+                    <legend style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">Is your cat an indoor or outdoor cat?</legend>
+                    <label style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked>Indoor</label>
+                    <label style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor">Outdoor</label>
+                </fieldset>
+                <fieldset>
+                    <legend style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">What's your cat's personality?</legend>
+                    <input id="loving" type="checkbox" name="personality" value="loving" checked><label style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" for="loving">Loving</label>
+                    <input id="lazy" type="checkbox" name="personality" value="lazy"><label style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" for="lazy">Lazy</label>
+                    <input id="energetic" type="checkbox" name="personality" value="energetic"><label style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" for="energetic">Energetic</label>
+                </fieldset>
+                <input style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" type="text" name="catphotourl" placeholder="Cat photo URL" required>
+                <button style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;" type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">No Copyright - <a href="https://www.freecodecamp.org">freeCodeCamp.org</a></p>
+    </footer>
+</body>
+</html>

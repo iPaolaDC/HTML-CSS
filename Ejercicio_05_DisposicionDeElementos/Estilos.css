@@ -1,0 +1,14 @@
+.header{
+    font-style: italic;
+    font-family:'Gill Sans MT';
+    color: deeppink;
+    -webkit-text-stroke: 1px purple;
+}
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.imagen {
+    width: 300px;
+}

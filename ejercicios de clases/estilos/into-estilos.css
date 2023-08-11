@@ -1,0 +1,43 @@
+/* Estilos de colores*/
+.colores{
+    color: chartreuse;
+}
+.color-hexadecimal{
+    color: #50ffb1;
+}
+.color-rgb{
+    color: rgb(100, 0, 200);
+}
+.color-rgba{
+    color: rgb(129, 27, 49, 1);
+}
+/* Fondos */
+.fondo{
+    background-color: rgb(22, 186, 236);
+}
+.fondo-url{
+    background-image: url(https://www.eclixxo.com/wp-content/uploads/2017/05/codigo-css-3.jpg);
+    background-position: center center;
+}
+.fondo-local{
+    background-image: url(fondo.jpg);
+    background-position: center center;
+}
+/* Tamaños*/
+.anchura{
+    background-color: darkorange;
+    width: 150px;
+}
+.altura{
+    background-color: deeppink;
+    height: 200px;
+}
+.tarjeta{
+    border-style: solid;
+    border-color: darkred;
+    border-width: 1px;
+    /*border-top: none;*/
+    padding: 10px 20px;
+    /*padding: 10px 20px 30px 40px;*/
+    margin: 10px 20px;
+}

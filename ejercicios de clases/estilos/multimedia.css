@@ -1,0 +1,25 @@
+/* De esta forma eliminamos las margenes que vienen por defecto en la configuracion*/
+*{
+    padding: 0;
+    margin: 0;
+}
+.imagen-principal{
+    width: 100vw;
+    opacity: 0.6;/* la opacidad va de 0 a 1 */
+}
+/*con esta propiedad podemos hacer que cuando se pase el cursor por encima de la imagen la imagen quede opaca o no*/
+.imagen-principal:hover{
+    opacity: 1;
+}
+.galeria{
+    display: flex;/* se usa esta propiedad para distribuir los espacios entre los items de la interfaz*/
+    flex-wrap: wrap;
+    gap: 10px; /* espacio entre las imagenes*/
+}
+.imagen-galeria{
+    width: 150px;
+}
+.imagen-galeria:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}

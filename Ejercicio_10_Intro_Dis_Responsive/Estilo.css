@@ -1,0 +1,34 @@
+body{
+    margin: 0;
+    padding: 0; 
+    max-width: 100vh;
+    max-height: 100vh;
+    display: flex;
+    font-size: 2rem;
+}
+.contenedor{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+}
+.item{
+    color: red;
+    background-color: yellow;
+    padding: 1rem;
+    width: 3rem;
+}    
+.principal{
+    padding: 5px;
+    flex-grow: 1;
+}
+@media (max-width: 640px) {
+    body{
+        flex-direction: column-reverse;
+    }
+    div.contenedor{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}

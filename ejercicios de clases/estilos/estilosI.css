@@ -1,0 +1,34 @@
+h1 {
+    color: red;
+}
+p {
+    color: blue;
+    font-size: 16pt;
+}
+/* de esta forma se hacen comentarios*/
+/* selectores de CSS*/
+/* estan los selectores de clase y los selectores id*/
+/* selectores id*/
+#primera-noticia {
+    color: green;
+    font-size: 12pt;
+}
+#segunda-noticia{
+    color: blueviolet;
+    font-size: 14pt;
+}
+/*selectores de clase*/
+.encabezado{
+    font-size: 24pt;
+    color: aqua;
+    text-transform: uppercase;
+}
+/*selector universa se hace co el  (*)*/
+*.warning{
+    color: red;
+}
+/*cambiar estilos de varias cosas en un solo paso*/
+.una, .dos, .tres{
+    text-decoration: underline;
+    color: forestgreen;
+}
